@@ -15,6 +15,13 @@
   - [3) «Магическое число» 7 +- 2](#3-магическое-число-7--2-связь-с-магическим-числом-и-цикломатической-сложностью)
   - [6) Test Runner](#6-что-такое-test-runner-дайте-определение-приведите-примеры-java-frameworks)
   - [9) Reflection в Java](#9-что-такое-reflection-в-java-как-используется-в-контексте-mock-frameworks)
+- [Часть 4: Задачи на кодирование](#часть-4-задачи-на-кодирование)
+  - [Факториал](FourthQuestionsGroup.py)
+  - [Unit Tests](FactorialUnitTests.py)
+- [Часть 5: Задачи на Design Patterns](#часть-5-задачи-на-design-patterns)
+  - [Абстрактная Фабрика](AbstractFactory.py)
+  - [Unit Tests](AbstractFactoryUnitTests.py)
+
 
 # Часть 1: Design Patterns
 ### 1) Описание Singleton Design Pattern
@@ -209,6 +216,7 @@ Test Runner в этих фреймворках автоматически нах
 В контексте **Mock-фреймворков** (фреймворков для создания заместителей или заглушек для тестирования) рефлексия используется для создания и настройки макетов (mocks) или объектов-заглушек. Заглушки могут имитировать поведение реальных объектов, чтобы упростить и ускорить тестирование. Рефлексия позволяет создавать заглушки для классов и интерфейсов, которые могут быть интегрированы в юнит-тесты.
 
 #### **Пример использования рефлексии в контексте mock-фреймворков:**
+
 ```javascript
 import org.mockito.Mockito;
 import java.lang.reflect.Field;
@@ -242,3 +250,13 @@ public class MockTest {
 }
 ```
 В этом примере мы создаем макет (mock) для класса **SomeClass** и используем рефлексию для установки этого макета в private поле **someObject** объекта **example**. Это позволяет нам контролировать поведение **someObject** и тестировать **Example** с использованием заглушек.
+
+# Часть 4: Задачи на кодирование
+
+- [Факториал](FourthQuestionsGroup.py)
+- [UnitTests](FactorialUnitTests.py)
+
+# Часть 5: Задачи на Design Patterns
+
+- [Абстрактная Фабрика](AbstractFactory.py)
+- [Unit Tests](AbstractFactoryUnitTests.py)
